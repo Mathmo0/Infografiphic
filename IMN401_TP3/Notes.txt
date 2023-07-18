@@ -1,0 +1,3 @@
++ Remplacer Frame.cpp dans le répertoire src par le nouveau fichier
++ Ajouter Wall.obj dans le répertoire obj
+
