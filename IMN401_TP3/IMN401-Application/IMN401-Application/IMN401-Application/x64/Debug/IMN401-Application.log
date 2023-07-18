@@ -1,0 +1,61 @@
+﻿  MaterialTP3.cpp
+D:\Cours_SHERBROOKE\Hiver\Infographie\IMN401_TP3\IMN401-Application\IMN401-Application\Materials\MaterialTP3.cpp(84,56): warning C4244: 'argument' : conversion de 'double' en 'GLsizei', perte possible de données
+D:\Cours_SHERBROOKE\Hiver\Infographie\IMN401_TP3\IMN401-Application\IMN401-Application\Materials\MaterialTP3.cpp(85,55): warning C4244: 'argument' : conversion de 'double' en 'GLsizei', perte possible de données
+D:\Cours_SHERBROOKE\Hiver\Infographie\IMN401_TP3\IMN401-Application\IMN401-Application\Materials\MaterialTP3.cpp(86,55): warning C4244: 'argument' : conversion de 'double' en 'GLsizei', perte possible de données
+  MaterialTP2.cpp
+D:\Cours_SHERBROOKE\Hiver\Infographie\IMN401_TP3\IMN401-Application\IMN401-Application\Materials\MaterialTP2.cpp(75,56): warning C4244: 'argument' : conversion de 'double' en 'GLsizei', perte possible de données
+D:\Cours_SHERBROOKE\Hiver\Infographie\IMN401_TP3\IMN401-Application\IMN401-Application\Materials\MaterialTP2.cpp(76,55): warning C4244: 'argument' : conversion de 'double' en 'GLsizei', perte possible de données
+D:\Cours_SHERBROOKE\Hiver\Infographie\IMN401_TP3\IMN401-Application\IMN401-Application\Materials\MaterialTP2.cpp(77,55): warning C4244: 'argument' : conversion de 'double' en 'GLsizei', perte possible de données
+  Materiel.cpp
+D:\Cours_SHERBROOKE\Hiver\Infographie\IMN401_TP3\IMN401-Application\IMN401-Application\Materials\Materiel.cpp(43,53): warning C4244: 'argument' : conversion de 'double' en 'float', perte possible de données
+D:\Cours_SHERBROOKE\Hiver\Infographie\IMN401_TP3\IMN401-Application\IMN401-Application\Materials\Materiel.cpp(56,56): warning C4244: 'argument' : conversion de 'double' en 'GLsizei', perte possible de données
+D:\Cours_SHERBROOKE\Hiver\Infographie\IMN401_TP3\IMN401-Application\IMN401-Application\Materials\Materiel.cpp(57,55): warning C4244: 'argument' : conversion de 'double' en 'GLsizei', perte possible de données
+D:\Cours_SHERBROOKE\Hiver\Infographie\IMN401_TP3\IMN401-Application\IMN401-Application\Materials\Materiel.cpp(58,55): warning C4244: 'argument' : conversion de 'double' en 'GLsizei', perte possible de données
+  Application.cpp
+D:\Cours_SHERBROOKE\Hiver\Infographie\IMN401_TP3\IMN401-Application\IMN401-Application\src\Application.cpp(176,28): warning C4244: 'argument' : conversion de 'double' en 'int', perte possible de données
+D:\Cours_SHERBROOKE\Hiver\Infographie\IMN401_TP3\IMN401-Application\IMN401-Application\src\Application.cpp(176,20): warning C4244: 'argument' : conversion de 'double' en 'int', perte possible de données
+D:\Cours_SHERBROOKE\Hiver\Infographie\IMN401_TP3\IMN401-Application\IMN401-Application\src\Application.cpp(347,22): warning C4244: '-=' : conversion de 'double' en 'float', perte possible de données
+D:\Cours_SHERBROOKE\Hiver\Infographie\IMN401_TP3\IMN401-Application\IMN401-Application\src\Application.cpp(473,20): warning C4244: 'argument' : conversion de 'const int' en 'const float', perte possible de données
+D:\Cours_SHERBROOKE\Hiver\Infographie\IMN401_TP3\IMN401-Application\IMN401-Application\src\Application.cpp(520,17): warning C4244: 'argument' : conversion de 'float' en 'const int', perte possible de données
+  Camera.cpp
+  EngineGL.cpp
+  Frame.cpp
+  GeometricModel.cpp
+  AssimpLoader.cpp
+  OBJLoader.cpp
+D:\Cours_SHERBROOKE\Hiver\Infographie\IMN401_TP3\IMN401-Application\IMN401-Application\src\GeometricModelLoader\OBJLoader.cpp(78,40): warning C4267: 'initialisation' : conversion de 'size_t' en 'int', perte possible de données
+D:\Cours_SHERBROOKE\Hiver\Infographie\IMN401_TP3\IMN401-Application\IMN401-Application\src\GeometricModelLoader\OBJLoader.cpp(117,45): warning C4267: '=' : conversion de 'size_t' en 'int', perte possible de données
+D:\Cours_SHERBROOKE\Hiver\Infographie\IMN401_TP3\IMN401-Application\IMN401-Application\src\GeometricModelLoader\OBJLoader.cpp(118,43): warning C4267: '=' : conversion de 'size_t' en 'int', perte possible de données
+D:\Cours_SHERBROOKE\Hiver\Infographie\IMN401_TP3\IMN401-Application\IMN401-Application\src\GeometricModelLoader\OBJLoader.cpp(148,53): warning C4267: '=' : conversion de 'size_t' en 'int', perte possible de données
+D:\Cours_SHERBROOKE\Hiver\Infographie\IMN401_TP3\IMN401-Application\IMN401-Application\src\GeometricModelLoader\OBJLoader.cpp(149,58): warning C4267: '=' : conversion de 'size_t' en 'int', perte possible de données
+D:\Cours_SHERBROOKE\Hiver\Infographie\IMN401_TP3\IMN401-Application\IMN401-Application\src\GeometricModelLoader\OBJLoader.cpp(160,53): warning C4267: '=' : conversion de 'size_t' en 'int', perte possible de données
+D:\Cours_SHERBROOKE\Hiver\Infographie\IMN401_TP3\IMN401-Application\IMN401-Application\src\GeometricModelLoader\OBJLoader.cpp(161,58): warning C4267: '=' : conversion de 'size_t' en 'int', perte possible de données
+D:\Cours_SHERBROOKE\Hiver\Infographie\IMN401_TP3\IMN401-Application\IMN401-Application\src\GeometricModelLoader\OBJLoader.cpp(172,53): warning C4267: '=' : conversion de 'size_t' en 'int', perte possible de données
+D:\Cours_SHERBROOKE\Hiver\Infographie\IMN401_TP3\IMN401-Application\IMN401-Application\src\GeometricModelLoader\OBJLoader.cpp(173,58): warning C4267: '=' : conversion de 'size_t' en 'int', perte possible de données
+D:\Cours_SHERBROOKE\Hiver\Infographie\IMN401_TP3\IMN401-Application\IMN401-Application\src\GeometricModelLoader\OBJLoader.cpp(178,45): warning C4267: '=' : conversion de 'size_t' en 'int', perte possible de données
+  GLProgram.cpp
+  GLProgramPipeline.cpp
+  Main.cpp
+  MaterialGL.cpp
+  ModelGL.cpp
+  Node.cpp
+  Scene.cpp
+D:\Cours_SHERBROOKE\Hiver\Infographie\IMN401_TP3\IMN401-Application\IMN401-Application\src\Scene.cpp(96,32): warning C4018: '<' : incompatibilité signed/unsigned
+D:\Cours_SHERBROOKE\Hiver\Infographie\IMN401_TP3\IMN401-Application\IMN401-Application\src\Scene.cpp(105,30): warning C4018: '<' : incompatibilité signed/unsigned
+D:\Cours_SHERBROOKE\Hiver\Infographie\IMN401_TP3\IMN401-Application\IMN401-Application\src\Scene.cpp(118,29): warning C4018: '<' : incompatibilité signed/unsigned
+D:\Cours_SHERBROOKE\Hiver\Infographie\IMN401_TP3\IMN401-Application\IMN401-Application\third_party\Resource_mgr.hpp(62,1): warning C4267: 'return' : conversion de 'size_t' en 'int', perte possible de données
+D:\Cours_SHERBROOKE\Hiver\Infographie\IMN401_TP3\IMN401-Application\IMN401-Application\third_party\Resource_mgr.hpp(61): message : pendant la compilation de la fonction membre classe modèle 'int Resource_mgr<Node>::size(void)'
+D:\Cours_SHERBROOKE\Hiver\Infographie\IMN401_TP3\IMN401-Application\IMN401-Application\src\Scene.cpp(96): message : voir la référence à l'instanciation de la fonction modèle 'int Resource_mgr<Node>::size(void)' en cours de compilation
+D:\Cours_SHERBROOKE\Hiver\Infographie\IMN401_TP3\IMN401-Application\IMN401-Application\include\Scene.h(52): message : voir la référence à l'instanciation classe modèle 'Resource_mgr<Node>' en cours de compilation
+  Texture2D.cpp
+D:\Cours_SHERBROOKE\Hiver\Infographie\IMN401_TP3\IMN401-Application\IMN401-Application\src\Texture2D.cpp(30,20): warning C4244: 'initialisation' : conversion de 'double' en 'int', perte possible de données
+  imgui.cpp
+  imgui_demo.cpp
+  Génération de code en cours...
+  Compilation en cours...
+  imgui_draw.cpp
+  imgui_impl_glfw_gl3.cpp
+  ImGUILogger.cpp
+  Génération de code en cours...
+  glad.c
+  IMN401-Application.vcxproj -> D:\Cours_SHERBROOKE\Hiver\Infographie\IMN401_TP3\IMN401-Application\IMN401-Application\x64\Debug\IMN401-Application.exe

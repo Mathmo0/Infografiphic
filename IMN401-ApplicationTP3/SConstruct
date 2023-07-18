@@ -1,0 +1,15 @@
+ 
+src_files = Split(Glob('./src/*.cpp'))
+src_files += Glob('./src/GeometricModelLoader/*.cpp')
+src_files += Glob('./third_party/glad/src/*.c')
+src_files += Glob('./third_party/imgui/*.cpp')
+src_files += Glob('./third_party/Logger/*.cpp')
+src_files += Glob('./Materials/*.cpp')
+
+
+inc_directories_internal = ['./','./include','./third_party','./third_party/stb','./third_party/Logger']
+inc_directories = inc_directories_internal + ['./third_party/Assimp','./third_party/glm','./third_party/imgui','./third_party/glad/include','./third_party/GLFW/include']#+++ third party (assimp, glad,glm,glfw,imgui,Logger,stb) or include lib on Linux
+lib_names = ['glfw3dll','assimp']
+
+libPath = ['./third_party/lib'] #On linux : '/usr/local/lib:/usr/lib'...
+Program('./Build/IMN401',src_files,LIBS=lib_names,LIBPATH=libPath,CPPPATH =inc_directories )

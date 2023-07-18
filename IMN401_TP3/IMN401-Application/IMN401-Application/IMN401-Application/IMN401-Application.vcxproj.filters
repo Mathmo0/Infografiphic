@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Fichiers de ressources\Utils">
+      <UniqueIdentifier>{851c91ef-2c17-4598-afd9-fdf404279397}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Materials">
+      <UniqueIdentifier>{1fc297ba-222f-47ef-bf1c-8842b88414d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Materials\Shaders">
+      <UniqueIdentifier>{efdf19c0-f59c-4fe3-8483-95cd1df0dfdd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers de ressources\Utils\glad">
+      <UniqueIdentifier>{6de32b38-5ed9-4120-a6c3-a6629dc8fe0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers de ressources\Utils\imgui">
+      <UniqueIdentifier>{772e9eb0-601f-4186-a7f5-f138859dc5f0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\Application.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Camera.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\EngineGL.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Frame.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\GLProgram.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\GLProgramPipeline.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Main.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MaterialGL.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ModelGL.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Node.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Scene.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\Logger\ImGUILogger.cpp">
+      <Filter>Fichiers de ressources\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\GeometricModel.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\GeometricModelLoader\AssimpLoader.cpp">
+      <Filter>Fichiers de ressources\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\GeometricModelLoader\OBJLoader.cpp">
+      <Filter>Fichiers de ressources\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Materials\MaterialTP2.cpp">
+      <Filter>Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\glad\src\glad.c">
+      <Filter>Fichiers de ressources\Utils\glad</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\imgui\imgui.cpp">
+      <Filter>Fichiers de ressources\Utils\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\imgui\imgui_demo.cpp">
+      <Filter>Fichiers de ressources\Utils\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\imgui\imgui_draw.cpp">
+      <Filter>Fichiers de ressources\Utils\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\imgui\imgui_impl_glfw_gl3.cpp">
+      <Filter>Fichiers de ressources\Utils\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Texture2D.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Materials\Materiel.cpp">
+      <Filter>Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Materials\MaterialTP3.cpp">
+      <Filter>Materials</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\Application.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Camera.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\EngineGL.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Frame.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\GLProgram.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\GLProgramPipeline.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\MaterialGL.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ModelGL.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Node.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\NodeCollector.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Scene.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\Logger\ImGuiLogger.h">
+      <Filter>Fichiers de ressources\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\Resource_mgr.hpp">
+      <Filter>Fichiers de ressources\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\Singleton.h">
+      <Filter>Fichiers de ressources\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\GeometricModelLoader\GeometricModelLoader.h">
+      <Filter>Fichiers de ressources\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\GeometricModelLoader\AssimpLoader.h">
+      <Filter>Fichiers de ressources\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\GeometricModelLoader\OBJLoader.h">
+      <Filter>Fichiers de ressources\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Materials\MaterialTP2.h">
+      <Filter>Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\GeometricModel.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\imgui\imgui_impl_glfw_gl3.h">
+      <Filter>Fichiers de ressources\Utils\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\imgui\imgui_internal.h">
+      <Filter>Fichiers de ressources\Utils\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\imgui\stb_rect_pack.h">
+      <Filter>Fichiers de ressources\Utils\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\imgui\stb_textedit.h">
+      <Filter>Fichiers de ressources\Utils\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\imgui\stb_truetype.h">
+      <Filter>Fichiers de ressources\Utils\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\imgui\imconfig.h">
+      <Filter>Fichiers de ressources\Utils\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\imgui\imgui.h">
+      <Filter>Fichiers de ressources\Utils\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Materials\Materiel.h">
+      <Filter>Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Materials\MaterialTP3.h">
+      <Filter>Materials</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Materials\Shaders\Main-VS.glsl">
+      <Filter>Materials\Shaders</Filter>
+    </None>
+    <None Include="..\Materials\Shaders\Main-FS.glsl">
+      <Filter>Materials\Shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>
